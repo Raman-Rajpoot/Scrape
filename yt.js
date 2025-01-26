@@ -51,12 +51,10 @@ async function scrapeYouTubeVideo(page) {
     await page.waitForSelector('span.bold.style-scope.yt-formatted-string', { visible: true });
     const views = await page.$eval('span.bold.style-scope.yt-formatted-string', el => el.innerText.trim());
     const title = await page.$eval('h1.style-scope.ytd-watch-metadata yt-formatted-string', el => el.innerText.trim());
-console.log(`🎬 Title: ${title}`);
+
 
     const channelName = await page.$eval('ytd-channel-name a', el => el.innerText.trim());
-   console.log(`📹 Videos: ${numberOfVideos}`);
   
-
 
     console.log(`🎬 Title: ${title}`);
     console.log(`👤 Channel: ${channelName}`);

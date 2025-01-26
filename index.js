@@ -30,9 +30,11 @@ async function scrapeSocialMedia(url) {
 }
 
 // Example Usage: Call with different URLs
-// scrapeSocialMedia("https://www.instagram.com/p/DFSQqljzW9h/");  // 3
-// scrapeSocialMedia("https://www.youtube.com/watch?v=4oCkWizuxSc");  // 1.5
-scrapeSocialMedia("https://x.com/who_krn");
 
+// scrapeSocialMedia("https://www.instagram.com/ramanrajpoot_72/"); // Instagram Profile
+// scrapeSocialMedia("https://www.instagram.com/p/ClOzfMhKTXC/"); // Instagram Post
+// scrapeSocialMedia("https://www.instagram.com/reel/DFSx3pUt4AN/"); // Instagram Reel
 
-// scrapeSocialMedia('https://www.instagram.com/reel/DEv9IuINaKd/')
+// scrapeSocialMedia("https://www.youtube.com/watch?v=6dqAwh2MCg0"); // YouTube Video
+// scrapeSocialMedia("https://www.youtube.com/@GangstaPerspectives"); // YouTube Channel
+
